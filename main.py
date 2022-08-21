@@ -127,25 +127,6 @@ async def on_message(message):
                 anger = anger + 1
                 print(msgDict["label"])
 
-
-
-#    if 'im' or "i'm" in message.content.lower():
-#        originalMessage = message.content.lower()
-#       if 'im ' in message.content.lower():
-#            splitString = "im "
-#        if "i'm " in message.content.lower():
-#            splitString = "i'm "
-#
-#        if dadMode:
-#           postMessage = originalMessage.partition(splitString)[2]
-#            if message.author.id == 973920203190698005:
-#               await message.channel.send("Hi " + postMessage + ", I'm D- Wait, what? Why aren't you texting Mya rn? ")
-#           else:
-#               await message.channel.send("Hi " + postMessage + ", I'm Dad")
-#
-#       if message.content.lower() == "game test":
-#           message.channel.send("Chat Game Test")
-
     print(message.content)
 
 client.run(disToken)
