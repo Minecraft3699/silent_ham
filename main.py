@@ -4,8 +4,8 @@ import random
 import time
 
 import discord
-MTAwMTM0NjEzNTMwODM3ODE1Mw.GTxZCy.MfdBjuBHRaKLNDNgljgJRDBDp-b6i_CyS--Wag
-disToken = "OTQxOTAzOTgzNzg0NjI0MTgw.YgcucQ.lyiipRXNjAYqHUu-ASm83D-EP44"
+
+disToken = "susamongus"
 
 global anger
 anger = 0
